@@ -1,0 +1,38 @@
+#logo{
+    color: blue;
+    text-transform: uppercase;
+    /*font-weight: bold;*/
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+.logo-icon{
+    color: blue;
+}
+
+.product{
+    border: 3px solid blue; 
+    padding:3px; 
+   
+    color:white;
+    background-color: blue;
+    width: 4.5rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 100%; 
+    text-align: center!important; 
+}
+.text-end {
+    text-align: center!important; 
+}
+.col-md-auto {
+    flex: 0 0 auto;
+    width: 100%;
+}
+}
